@@ -32,3 +32,5 @@ markdown_extensions:
 
 plugins:
   - search
+
+site_url: https://vnovikov21.github.io/devops-lab-novikov/personal-site/
