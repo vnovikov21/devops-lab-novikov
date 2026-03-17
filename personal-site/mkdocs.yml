@@ -1,0 +1,34 @@
+site_name: Владимир Новиков — DevOps
+site_description: Персональный сайт студента DevOps-направления
+site_author: Владимир Новиков
+site_url: https://vnovikov21.github.io/devops-lab-novikov/personal-site/  
+
+theme:
+  name: material
+  palette:
+    primary: indigo          
+    accent: deep purple      
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  icon:
+    logo: material/account   
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+plugins:
+  - search
